@@ -3,6 +3,7 @@ import React from 'react';
 import MovieCard from '../components/MovieCard';
 import Banner from '../components/Banner';
 
+
 const movies = [
   { id: 1, title: 'WAR', poster: 'https://m.media-amazon.com/images/M/MV5BMGUzZDIyMmEtZWExZi00OTJmLWI4YWUtZjMwNzcwNjgyYTQwXkEyXkFqcGdeQXVyNTkzNDQ4ODc@._V1_FMjpg_UX1000_.jpg', rating: '8.4' },
   { id: 2, title: 'Tamasha', poster: 'https://m.media-amazon.com/images/M/MV5BMzg4NzE4NDMtMGNmOC00MTc1LTk2NTItMmFlMjNjMDgxN2Y5XkEyXkFqcGc@._V1_UY1200_CR99,0,630,1200_AL_.jpg', rating: '8.8' },
