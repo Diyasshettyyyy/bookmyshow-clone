@@ -8,6 +8,8 @@ import Booking from './pages/Booking';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Banner from './components/Banner';
+<Route path="/booking" element={<Booking />} />
+
 
 
 const App = () => (

@@ -1,0 +1,12 @@
+.movie-list-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto; /* Allows horizontal scrolling */
+    padding: 10px;
+    white-space: nowrap;
+  }
+  
+  .movie-list-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+  

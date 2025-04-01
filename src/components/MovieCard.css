@@ -1,4 +1,4 @@
-.movie-list-container {
+ .movie-list-container {
     display: flex;
     overflow-x: auto;
     gap: 38px;
@@ -37,3 +37,17 @@
     transform: scale(1.05);
   }
   
+  .movie-list-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto; 
+    padding: 10px;
+    white-space: nowrap;
+  }
+  
+  .movie-list-container::-webkit-scrollbar {
+     display: none;
+    }
+   
+
+    
